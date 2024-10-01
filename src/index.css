@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling for WebKit browsers */
+  height: 12px; /* Height of the thumb */
+  width: 12px; /* Width of the thumb */
+  border-radius: 10%; /* Make it circular */
+  background: #4CAF50; /* Green thumb color */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: -6px; /* Center the thumb on the track */
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #4CAF50; /* Green fill color */
+  height: 0.25rem;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
